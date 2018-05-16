@@ -24,7 +24,7 @@
     name: 'latestArticles',
     head () {
       return {
-        title: 'binlive',
+        title: 'Span',
         meta: [
           { hid: 'description', name: 'description', content: 'Span前端开发,前端,web前端开发,node,vue,react,webpack,git' },
           { name: 'keywords', content: 'Span前端开发,前端,web前端开发,node,vue,react,webpack,git' }

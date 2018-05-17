@@ -10,7 +10,8 @@
               </div>
             </div>
             <div>
-              <a href="http://admin.binlive.cn/my" target="_blank" id="avatar">
+              <!-- <a href="http://admin.binlive.cn/my" target="_blank" id="avatar"> -->
+              <a id="avatar">
                 <img src="http://ou2puub88.bkt.clouddn.com/11111.png" alt="">
               </a>
               <div id="search">

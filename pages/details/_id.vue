@@ -65,7 +65,7 @@
     name: 'Articledetails',
     head () {
       return {
-        title: this.articleDetails.title || 'binlive',
+        title: this.articleDetails.title || 'span',
         meta: [
           { hid: 'description', name: 'description', content: `${this.articleDetails.title},前端开发,前端,web前端开发,node,vue,react,webpack,git` },
           { name: 'keywords', content: this.articleDetails.title }

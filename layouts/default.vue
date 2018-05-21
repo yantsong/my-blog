@@ -6,14 +6,14 @@
           <div class="nav-bar-body">
             <div class="nav-bar-inner">
               <div id="logo">
-                <img src="http://img.binlive.cn/upload/1525010252092" alt="Span个人技术博客vue、react、node">
+                <img src="http://ou2puub88.bkt.clouddn.com/11111.png" alt="Span个人技术博客vue、react、node">
               </div>
             </div>
             <div>
-              <!-- <a href="http://admin.binlive.cn/my" target="_blank" id="avatar"> -->
-              <a id="avatar">
+              <!-- <a href="http://admin.binlive.cn/my" target="_blank" id="avatar"></a> -->
+              <router-link to="/my" id="avatar">
                 <img src="http://ou2puub88.bkt.clouddn.com/11111.png" alt="">
-              </a>
+              </router-link>
               <div id="search">
                 <el-input  placeholder="搜索" :on-icon-click="searchArticle"  v-model="search" @keyup.enter.native="keyupsearch($event)">
                   <i slot="prefix" class="el-input__icon el-icon-search"></i>
@@ -26,7 +26,7 @@
               <el-tabs v-model="activeName" @tab-click="handleClick">
                 <el-tab-pane  v-for="item in taglists" :key=item :label='item' :name="item" data-ripple></el-tab-pane>
               </el-tabs>
-              <!-- <el-button type="primary" icon="el-icon-menu" id="gomobilebtn" @click="gimobile" style="margin-right: 10px">课程</el-button> -->
+              <el-button type="primary" icon="el-icon-menu" id="gomobilebtn" @click="gimobile" style="margin-right: 10px">在线简历</el-button>
               <el-button type="primary" icon="el-icon-edit" id="addacticlebtn" @click="loginpage">写博客</el-button>
             </template>
           </div>
@@ -89,7 +89,7 @@
         this.$router.push({path:`/${index == 0 ? '' : tab.name}`});
       },
       gimobile() {
-        window.open('http://www.m.binlive.cn');
+        this.$router.push({path:`/my`});
       },
       searchArticle() {
         const trimSearch = this.search.trim();

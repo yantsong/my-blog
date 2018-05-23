@@ -58,7 +58,7 @@
       var _hmt = _hmt || [];
       (function() {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?66af132474dd9a5c2ebd172d8d08e81b";
+        hm.src = "/love.js";
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
         console.log('end',s,hm);

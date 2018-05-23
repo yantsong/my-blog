@@ -21,7 +21,8 @@ module.exports = {
      */
     loading: { color: '#44C1B8', height: '4px' },
     vender: [
-        'element-ui', 'axios', '~untils/index.js'
+        'element-ui', 'axios', '~untils/index.js', '~plugins/love.js'
+
     ],
     css: [
         'element-ui/lib/theme-chalk/index.css',

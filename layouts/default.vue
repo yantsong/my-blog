@@ -61,8 +61,13 @@
         hm.src = "https://hm.baidu.com/hm.js?66af132474dd9a5c2ebd172d8d08e81b";
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
+        console.log('end',s,hm);
+        var point = document.createElement("script");
+        point.src = "https://cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js";
+        s.parentNode.insertBefore(point, s);
+        console.log('end',s,point);
+
       })();
-      console.log("%c", "background: url(http://img.binlive.cn/upload/1525010252092) no-repeat center;padding-left:300px;padding-bottom: 200px")
       this.taglist();
       var winwinth=window.innerWidth
       if(this.$route.params.tag === undefined && this.$route.fullPath === '/'){

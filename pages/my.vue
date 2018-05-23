@@ -1,7 +1,7 @@
 <template>
     
-<body>
-    <header>
+<body style="background:transparent">
+    <header style="background:transparent">
         <div class="header-container" id="toTop" style="padding-top:70px;">
             <nav style="position: absolute;">
                 <ul>
@@ -55,7 +55,7 @@
                                 <li>- 熟悉 <strong>ES5/6</strong> 语法</li>
                                 <li>- 了解<strong>HTTP</strong>协议,使用<strong>Ajax/Fetch</strong>面向JSON编程爽歪歪</li>
                                 <li>- 熟悉<strong>React/Redux/Router</strong>(程度:生命周期,Diff算法,无状态组件,immutable,pure Render,HOC根据业务场景合理使用HOC,编写复用性高的组件)</li>
-                                <li>- 熟悉<strong>Vue/VueX/Router/Nuxt</strong>熟练使用全家桶,看过一点Vue源码,曾实现过简单的Router</li>
+                                <li>- 熟悉<strong>Vue/VueX/Router/Nuxt</strong>熟练使用全家桶,看过一点Vue源码,曾实现过简单的Vue-Router</li>
                                 <li>- 熟悉<strong>微信小程序开发</strong>,来自时代的需求...</li>
                                 <li>- 根据情景使用各种插件库,<strong>Bootstrap</strong>/SemanticUI(angular)/antd(react)/element(vue)</li>
                                 <li class="h6">* 后端技能</li>
@@ -108,10 +108,12 @@
                             </p>
                             <p>期间主要职责为：</p>
                             <p>- 负责移动端项目的前端开发</p>
-                            <p>- 根据设计提供的设计稿还原静态页面</p>
+                            <p>- 根据设计提供的设计稿还原静态页面,运用HTML5语义化标签+CSS3新特性进行页面布局，实现页面的动态效果，提高代码的清 晰度和代码质量，将页面体现的更加丰满，代码更健壮。</p>
                             <p>- 为项目进行兼容性测试和调试</p>
                             <p>- 使用Sass完成CSS页面</p>
-                            <p>- 使用Vue为主要框架,Vue-Router以及axios，编写复用性高的组件</p>
+                            <p>- 使用Vue为主要框架,Vue-Router以及axios，编写复用性高的组件,采用前后端分离的开发方式</p>
+                            <p>- 运用vue.js中的指令和服务与后台接口对接，进行数据交互，进行页面渲染，实现功能 模块的判断。</p>
+                            <p>- 项目测试阶段可以自己用node连接数据库进行接口对接和数据渲染模拟，测试功能模块 是否完善，逻辑处理是否正确。</p>
                             <p>- 采用 Vuex 管理前端数据流</p>
                             <p>- 采用 i-18N 进行数据国际化</p>
                             <p>- 使用webpack自动化构建工具</p>
@@ -140,10 +142,11 @@
                                 <span>jQuery</span> <span>git</span> <span>Sass</span> <span>css3</span>
                             </div>
                             <p>主要职责：</p>
-                            <p>- 精确还原设计图,使用雪碧、缓存、 WebP 等压缩首屏时间，提高弱网体验</p>
+                            <p>- 精确还原设计图</p>
                             <p>- 根据Bootstrap原理,自制css库完成移动端页面，实现响应式布局，适配多种终端设备</p>
                             <p>- 使用Sass完成CSS部分 </p>
-                            <p>- 使用Jsp语法填充页面以及数据</p>
+                            <p>- 使用Jsp语法填充页面以及数据,使用JQuery完成DOM和Bom操作</p>
+                            <p>- ,使用雪碧、缓存、 WebP 等压缩首屏时间，提高弱网体验</p>
                             <p>- 使用html5、css3配合velocity.js等完成页面动效</p>
                             <p>- 网站兼容性代码调试，分析和解决bug</p>
                         </div>
